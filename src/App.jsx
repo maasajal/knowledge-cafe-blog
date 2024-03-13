@@ -1,10 +1,16 @@
 import "./App.css";
+import Blogs from "./components/Blogs/Blogs";
+import Header from "./components/Header/Header";
 
 const App = () => {
   return (
-    <>
-      <h1 className="text-3xl">Knowledge Cafe Blog</h1>
-    </>
+    <div className="container mx-auto">
+      <Header></Header>
+      <hr />
+      <div>
+        <Blogs></Blogs>
+      </div>
+    </div>
   );
 };
 
